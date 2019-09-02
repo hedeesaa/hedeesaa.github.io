@@ -106,10 +106,10 @@ img {
       justify-content: center;
       align-items: center; }
 
-#news {
+#hobbie {
   background: #e2dfdf;
   color: #333; }
-  #news .paragraph {
+  #hobbie .paragraph {
     border-left: 3px solid #ffee00;
     font-size: 1.1rem;
     line-height: 1.7; }
@@ -138,7 +138,8 @@ img {
   .item:hover:after {
     transform: scale(2) translateX(0) translateY(0) rotate(-28deg); }
   .item-image img {
-    display: block; }
+    display: block;
+    width: 100%; }
   .item:hover .item-image {
     transform: scale(1.2);
     transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1); }
